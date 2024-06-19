@@ -1,0 +1,29 @@
+HTML: hypertext Markup Language....
+
+->With the help of Html we can define structure
+->The <!DOCTYPE html> declaration defines that this document is an HTML5 document
+-> <html> is the root element of an HTML Page
+-> <head> all the meta data of web page is present in head page.
+-> The <body> element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc
+
+What is HTML element?
+->An HTML element is define by a start tag some content and an end tag
+<tagname> content to be written here...</tagname>
+tag->markup entity
+
+->The <h1> element defines a heading.
+It has a start tag <h1> and an end tag </h1>
+
+->The <a> HTML element (or anchor element), with its href attribute, creates a hyperlink to web pages, files, email addresses, locations in the same page, or anything else a URL can address
+
+->The <ul> tag defines an unordered (bulleted) list.
+Use the <ul> tag together with the <li> tag to create unordered lists.
+
+->The <ol> tag defines an ordered list. An ordered list can be numerical or alphabetical.
+The <li> tag is used to define each list item.
+
+-> <pre> tag modification of para as per developer 
+
+->dev tag:The <div> tag defines a division or a section in an HTML document.
+The <div> tag is used as a container for HTML elements - which is then styled with CSS or manipulated with JavaScript.
+The <div> tag is easily styled by using the class or id attribute.
