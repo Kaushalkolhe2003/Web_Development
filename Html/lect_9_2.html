@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form >
+        <h2 >Job Application</h2>
+        
+        <label for="name">Name :</label><br>
+        <input type="text"  size="40" name="first" id="name">
+        <br>
+        <label for="email">Email :</label><br>
+        <input type="email" size="40" name="email" id="mail" placeholder="abcd@gmail.com"><br>
+
+        <label for="phone">Phone_No :</label><br>
+        <input type="tel" name="phone" id="phone"><br>
+
+        <label for="resume">Resume :</label><br>
+        <input type="file" name="resume" id="resume"><br>
+
+        <label for="exp">Experience(years):</label><br>
+        <input type="number"  size="10" id="exp" min="1"><br>
+
+        <fieldset>
+            <legend>Skills:</legend>
+            <input type="checkbox" id="check1"><br>
+            <label for="check1">HTML</label>
+            <br>
+
+            <input type="checkbox" id="check1"><br>
+            <label for="check1">CSS</label>
+            <br>
+
+            <input type="checkbox" id="check1"><br>
+            <label for="check1">JavaScript</label>
+            <br>
+        </fieldset>
+        <br>
+            <label for="edu">Highest Education :</label>
+            <select name="Education" id="edu">
+                <option value="">--please choose an option</option>
+                <option value="12th passed">12th Passed</option>
+                <option value="10th passed">10th Passed</option>
+                <option value="ITI passed">ITI </option>
+                <option value="Bachlore passed">Bachlore</option>
+            </select>
+            <br>
+<br>
+            <label for="time">Availability :</label>
+            <br>
+            <label for="check1">Full Time</label><br>
+            <input type="radio" name="radio1" id="time"><br><br>
+
+            <label for="time2">Part Time</label><br>
+            <input type="radio" name="radio2" id="time2"><br><br>
+
+            <label for="text">Additional_Comments</label><br>
+            <textarea name="text" id="text" cols="50" rows="10"></textarea>
+        <br>
+        <input type="submit" name="submit application" id="">
+
+    </form>
+</body>
+</html>

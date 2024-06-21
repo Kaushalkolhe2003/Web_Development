@@ -27,3 +27,10 @@ The <li> tag is used to define each list item.
 ->dev tag:The <div> tag defines a division or a section in an HTML document.
 The <div> tag is used as a container for HTML elements - which is then styled with CSS or manipulated with JavaScript.
 The <div> tag is easily styled by using the class or id attribute.
+
+What is forms?
+->Structure which help to collect data.(user input)
+tags-> <form> tag to create html form user input.
+->input tag <input>  for input we need label or what input we want so we use <label> with input tag
+ex: Std_id [Enter input ] with this for attribute
+  
