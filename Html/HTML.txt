@@ -33,4 +33,13 @@ What is forms?
 tags-> <form> tag to create html form user input.
 ->input tag <input>  for input we need label or what input we want so we use <label> with input tag
 ex: Std_id [Enter input ] with this for attribute
-  
+
+placeholder->to specifiy what should be mention in block of input
+
+fieldset->The <fieldset> tag is used to group related elements in a form.
+The <fieldset> tag draws a box around the related elements.
+->For Caption to be added for fieldset we use <legend> tag
+
+textarea->The <textarea> tag defines a multi-line text input control.
+
+->to select only one radio button form options name attribute should be same
