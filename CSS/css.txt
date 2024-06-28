@@ -25,3 +25,5 @@ CSS Box Model
 content->padding->border>margin 
 box-sizing :The CSS box-sizing property allows us to include the padding and border 
 in an element's total width and height.
+
+lect 17:position realtive,statc 
