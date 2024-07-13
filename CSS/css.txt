@@ -27,3 +27,21 @@ box-sizing :The CSS box-sizing property allows us to include the padding and bor
 in an element's total width and height.
 
 lect 17:position realtive,statc 
+
+Layout:flexbox  -> 1d layout methods
+Why flexbox?
+CSS flexible box layout enables you to:
+->Vertically center a block of content inside its parent.
+->Make all the children of a container take up an equal amount
+of the available width/height, regardless of how much width/height is available.
+->Make all columns in a multiple-column layout adopt the same height even if they 
+contain a different amount of content.
+
+->items inside the flex container is flex items
+->horzontal axis is main axis .Vertical axis is cross axis
+->to convert normal container to flex mark display:flex
+
+->flex flow is combination of flex wrap and direction
+->wrap adjustment as per gui of flex item.
+->justify content work around main axis .center,space-around
+align item work around the cross axis
