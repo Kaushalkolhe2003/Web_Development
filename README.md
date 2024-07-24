@@ -39,6 +39,8 @@ Welcome to my web development journey! This repository documents my progress and
 - [W3Schools](https://www.w3schools.com/)
 - [freeCodeCamp](https://www.freecodecamp.org/)
 
+## contact: kolhekaushal2003@gmail.com
+
 ## License
 This project is licensed under the MIT License.
 
