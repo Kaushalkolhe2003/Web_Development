@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: bisque;
+            height: 605px;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center ;
+
+        }
+        #head1{
+            text-shadow: 6px 1px 1px  white;
+        }
+        .box{
+            --primary-color:orange;
+            --custom-width:300px;
+            background-color: yellowgreen;
+            width:var(--custom-width) ;
+            height: 330px;
+            border: 1px solid var(--primary-color);
+            margin: 5px;
+            padding: 5px;
+             /*box-shadow: -7px -11px grey ;*/
+             /*box-shadow: 4px 6px 7px grey;*/ /* blur radius*/
+
+             /*box-shadow: -6px -8px 4px 20px green;*/
+
+             /*box-shadow: inset 4px 6px 8px blue;*/
+
+             box-shadow: 10px 15px grey ;
+
+        }
+        img{
+            width: 130px;
+            height: 120px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="download.jpeg" />
+            <h2 id="head1">Welcome To Garage </h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus voluptatibus nulla amet, ea totam voluptas possimus praesentium voluptatem minima sit rem est. Temporibus?
+            </p>
+
+        </div>
+    </div>
+</body>
+</html>
