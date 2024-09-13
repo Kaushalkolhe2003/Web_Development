@@ -1,0 +1,35 @@
+*{
+    padding: 3px;
+    margin: 3px;
+}
+
+.container{
+    border: 0.1rem solid rgb(0, 0, 0) ;
+    width: 200px;
+    height: 70%;
+    border-radius: 4px;
+    
+}
+#display{
+    margin: 10px;
+    width: 85%;
+    font-size: 25px;
+    border: 2.7px solid grey;
+    border-radius: 4px;
+}
+.buttons{
+   width:95%;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+  
+   
+}
+
+button{
+    width: 56px;
+    height: 40px;
+}
+#dot{
+    font-size: large;
+}
