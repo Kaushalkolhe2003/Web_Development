@@ -1,0 +1,14 @@
+*{
+    margin-top: 20px;
+}
+#h{
+    color: rgb(235, 78, 78);
+  text-shadow: 3px 3px 3px #000000;
+}
+.container{
+   
+    text-align: center;
+}
+.component{
+    gap: 5px;
+}
