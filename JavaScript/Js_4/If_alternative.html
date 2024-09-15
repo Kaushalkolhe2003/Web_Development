@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let age=12;
+        let result='';
+        if(age>21){
+            result='adult';
+        }
+        else{
+            result='minor';
+        }
+        console.log(result);
+
+        let num=2;
+
+        let count= num>23 ? 'Adult' : 'kid';
+        console.log(count);
+
+        //gaurd operator
+        
+        let finage= age || 13;
+        console.log(finage);
+
+        // default operator
+
+        let a;
+        let afinal= a ?? 23;
+        console.log(afinal);
+    </script>
+</body>
+</html>
