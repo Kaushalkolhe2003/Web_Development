@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objects in Javascripts</title>
+</head>
+<body>
+    <script>
+        let product1={
+          company:'Puma',
+          price:8000,
+          color:'black',
+          item_name : 'Shoes',
+          'warranty':'3 years',
+
+        };
+        console.log(product1);
+        //console.log(product1.color);
+        //console.log(product1.company);
+        //console.log(product1.item_name);
+        //console.log(product1.price); -->
+        product1.company='Paragaon';
+        console.log(product1.company);
+        let x=product1.item_name;
+        console.log(x);
+        let z='warranty';
+        console.log(product1[z]);
+
+        delete product1['warranty'];
+        console.log(product1);
+
+
+    </script>
+</body>
+</html>
