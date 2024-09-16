@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function calcAddition(number1, number2) { 
+            return number1 + number2; 
+        }
+        console.log(calcAddition(6,9));
+
+        //function expression
+        //funcion expresssion can be stored in variable assignment
+
+        const square = function (number) {
+            return number * number;
+      };
+      const x = square(4); // x gets the value 16
+      console.log(x);
+      
+      //Function as variable values....
+
+      // Function to convert Fahrenheit to Celsius
+function toCelsius(fahrenheit) {
+    return (fahrenheit - 32) * 5/9;
+  }
+  
+  // Using the function to convert temperature
+  let temperatureInFahrenheit = 77;
+  let temperatureInCelsius = toCelsius(temperatureInFahrenheit);
+  let text = "The temperature is " + temperatureInCelsius + " Celsius";
+
+  //arrow function in javascript
+  const add = (a, b) => a + b;
+console.log(add(3, 4)); // 7
+
+//Default parameters in functions
+ function hello(name='Kaushal'){
+    console.log(`Good Morning ${name}`);
+ }
+ hello('Mansi');
+ hello();
+    </script>
+</body>
+</html>
