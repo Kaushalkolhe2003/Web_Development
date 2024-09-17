@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratice set 6</title>
+</head>
+<body>
+    <script>
+        //create object to represent product from myntra
+        let product={
+            size:'M',
+            name:'T-shirt',
+            price: 15.99,
+            color:'Blue',
+            'dilivery-time':'Same day Dilviery',
+        };
+        //make reference and log changes to one object by changing the other one..
+
+        let clone=product;
+        console.log(clone);
+        clone.name='Jeans';
+        console.log(product.name);
+        
+        console.log(product['dilivery-time']);
+
+
+        //new obj
+        let obj={
+            message:'Good Job!',
+            status:'Complete',
+        };
+        
+        let{message,status}=obj;
+        console.log(message);
+        console.log(status);
+
+        //fucntion with 2 object passsing
+        function identicalProduct(product1,product2){
+            if(typeof product1 !=='object' || typeof product2!=='object'){
+                console.warn('Parameter passed was not an object');
+                return false;
+            }
+            if(product1==product2){
+                return true;
+            }
+            if(product1.name===product2.name &&
+             product1.size==product2.size &&
+             product1.fit==product2.fit){
+                return true;
+             }
+             else{
+                return false;
+             }
+        }
+
+        let product1={
+            size:'M',
+            name:'T-shirt',
+            price: 15.99,
+            color:'Blue',
+            'dilivery-time':'Same day Dilviery',
+        };
+        let product2={
+            size:'M',
+            name:'Jeans',
+            price: 13.9,
+            color:'Blue',
+            'dilivery-time':'Next day Dilivery',
+        };
+        console.log(identicalProduct(product1,product2));
+
+    </script>
+</body>
+</html>
