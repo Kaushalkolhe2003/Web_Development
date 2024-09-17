@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        let a=5;
+        let b=a;
+        console.log(`a=${a} and b=${b}`);
+        a=12;
+        console.log(`a=${a} and b=${b}`);
+
+        //for objects
+
+        let x={num:12};
+        let y=x;
+        console.log(`x=${x.num} and y=${y.num}`);
+        x.num=13;
+        console.log(`x=${x.num} and y=${y.num}`);
+
+
+        let p={c:'rat'};
+        let q={c:'rat'};
+        console.log(p===q);
+
+        //object de-structuring in javascript...
+        let person={name:'Rahul',age:25,city:'Delhi'};
+        let {name,age,city}=person;
+        console.log(name);
+        console.log(age);
+        console.log(city);
+
+        //property shortland
+        let price=2344;
+        let product={
+            price:price,
+            name:'product1',
+            discount:0.7
+
+        };
+        //is same as 
+        let product2={
+            price,
+            name:'product1',
+            discount:0.7
+        };
+        console.log(product2.price);
+
+
+        //method shortland
+        let person2={
+            name:'Rahul',
+            age:25,
+            city:'Delhi',
+            details: function(){
+                console.log(`Name=${this.name},Age=${this.age},City=${this.city}`)
+                }
+            };
+            person2.details();
+        //is same as
+        let person3={
+            name:'Mohan',
+            age:24,
+            city:'Surat',
+            details(){
+                console.log(`Name=${this.name},Age=${this.age},City=${this.city}`);
+                }
+                };
+
+                person3.details();
+
+    </script>
+</body>
+</html>
